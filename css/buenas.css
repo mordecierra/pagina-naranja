@@ -1,0 +1,294 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background:#191919;
+}
+
+
+.banner-container{
+    background:#191919;
+    width:100%;
+    height:100px; 
+    display:flex;
+    justify-content:center;   
+}
+
+.banner-title{
+    color:#FFFF;
+    text-align:center;
+    font-size:60px;
+    padding:10px;
+}
+
+.flexbox{
+    display:flex;
+}
+
+.nav-box{
+    display:flex;
+    justify-content:space-between;
+    background:#CED0CE;
+    width:100%;
+    margin:10px 10px 0px 10px;
+    align-items:flex-end;
+}
+
+.li-container{
+    display:flex;
+    margin:10px;
+}
+
+.li-item{
+    margin-right:50px;
+    margin-left:10px;
+}
+
+.search-area{
+    margin:10px;
+}
+
+.text{
+    outline:none;
+    border:none;
+    width:150px;
+    height:25px;
+    text-align:center;
+}
+
+.search-button{
+    width:20px;
+    height:20px;
+    background:#CED0CE;
+    border:none;
+    outline:none;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.content{
+    width:75em;
+    height:600px;
+    background:#E6E8E6;
+    margin:10px 5px 10px 10px;
+}
+
+.content-item{
+    padding:15px;
+}
+
+.aside-right-item{
+    padding:15px;
+}
+
+.aside-right{
+    width:400px;
+    height:600px;
+    background:#F15025;
+    margin:10px 10px 10px 5px
+}
+
+.galery{
+    background:#CED0CE;
+    margin:5px 10px;
+}
+
+.h1-container{
+    display:inline-flexbox;
+    width:100%;
+    margin:10px;
+    text-align:center;
+    justify-content:center;
+}
+
+.h1-item{
+    padding:15px;
+}
+
+.center-container{
+    display:flex;
+    justify-content:center;
+    padding:15px;
+}
+
+.grid-container{
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns:500px 500px;
+    grid-template-rows:150px 150px;
+}
+
+.grid-item{
+    border:#191919 solid 3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#CED0CE;
+    position:relative;
+}
+
+
+
+
+img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.places{
+    filter:blur(2px);
+}
+
+
+
+
+.footer-area{
+    background:#F15025;
+    margin:5px 10px;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer-container{
+    display:flex;
+    background:#f56039;
+    color:#191919;
+    width:100%;
+    height:150px;
+    justify-content:space-evenly;
+}
+
+.comentarios{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.redes-sociales{
+    display:flex;
+    justify-items: baseline;
+}
+
+textarea{
+    border:none;
+    outline:none;
+    width:90%;
+    height:90px;
+    resize:none;
+    text-align:center;
+    padding:15px;
+    background:#191919;
+    color:#E6E8E6;
+}
+
+.send-button{
+    width:90%;
+    height:30px;
+    background:#191919;
+    color:#E6E8E6;
+}
+
+.redes-sociales{
+    align-items:flex-end;
+    justify-content:space-between;
+    width:450px;
+    margin-right:5px;
+}
+
+.content{
+    overflow:hidden;
+}
+
+.poster-box{
+    display:flex;
+    justify-content:center
+}
+
+
+.aside-right{
+    overflow:hidden;
+}
+
+.poster-container{
+    padding:15px;
+    margin:5px;
+    width:250px;
+    height:300px;
+}
+
+.poster{
+    object-fit:cover;
+}
+
+.fa-solid{
+    padding:5px;
+    margin-right:3px;
+}
+
+/*sección :hover*/
+
+.banner-title{
+    cursor:pointer;
+}
+
+.li-item{
+    cursor:pointer;
+}
+.li-item:hover{
+    background:linear-gradient(to right, #CED0CE, #F15025);
+    transition:1s;
+    background-image: linear-gradient(200deg, #F15025, #CED0CE);
+    background-size: auto 210%;
+    background-position: 0 100%;
+    transition: background-position 2s;
+    border:solid transparent, 3px;
+    border-radius:5%;
+}
+
+.search-button{
+    cursor:pointer;
+}
+
+.poster{
+    cursor:pointer;
+}
+.poster:hover{
+    box-shadow:13px 21px 8px 4px #191919;
+    transition:1s;
+}
+
+.h1-item{
+    cursor:pointer;
+}
+
+.places:hover{
+    cursor:pointer;
+    filter:blur(0px)
+}
+
+img{
+    position:relative;
+}
+
+.send-button{
+    cursor:pointer;
+}
+.send-button:hover{
+    
+}
+
+.logo{
+    cursor:pointer;
+}
+
+.redes{
+    cursor:pointer;
+}
+
+
